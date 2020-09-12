@@ -6,7 +6,7 @@ import { render, screen } from "@testing-library/react";
 import { Foo } from "./Foo";
 
 describe("Foo", () => {
-  it("shows Bar", async () => {
+  it("shows the text 'Bar'", async () => {
     render(<Foo />);
 
     expect(screen.queryByText("Bar")).not.toBeNull();
