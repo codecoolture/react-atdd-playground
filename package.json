@@ -2,6 +2,12 @@
   "name": "react-atdd-playground",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "email": "hola@codecoolture.com",
+    "name": "Sergio Álvarez",
+    "url": "https://codecoolture.com"
+  },
   "scripts": {
     "build": "next build",
     "cy:open": "start-test dev 3000 'cypress open'",
