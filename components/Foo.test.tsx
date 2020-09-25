@@ -3,12 +3,16 @@
  */
 
 import { render, screen } from "@testing-library/react";
+import user from "@testing-library/user-event";
 import { Foo } from "./Foo";
 
 describe("Foo", () => {
-  it("shows the text 'Bar'", async () => {
+  it("has a 'Name' text field", async () => {
     render(<Foo />);
 
-    expect(screen.queryByText("Bar")).not.toBeNull();
+    const input = await screen.findByLabelText("Name");
+    await user.type(input, "Jon Snow");
+
+    expect(input).toHaveValue("Jon Snow");
   });
 });

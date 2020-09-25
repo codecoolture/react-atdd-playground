@@ -1,3 +1,8 @@
 export function Foo() {
-  return <p>Bar</p>;
+  return (
+    <label>
+      Name
+      <input />
+    </label>
+  );
 }
