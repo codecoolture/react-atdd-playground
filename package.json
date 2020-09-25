@@ -13,9 +13,16 @@
     "cy:open": "start-test dev 3000 'cypress open'",
     "cy:run": "start-test dev 3000 'cypress run'",
     "dev": "next dev",
+    "lint": "eslint . --ext .ts,.tsx",
     "start": "next start",
+    "test:all": "yarn test:acc && yarn test:unit",
     "test:acc": "yarn cy:run",
     "test:unit": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint && yarn test:all"
+    }
   },
   "dependencies": {
     "next": "9.5.3",
@@ -38,6 +45,7 @@
     "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-react": "^7.21.2",
+    "husky": "^4.3.0",
     "jest": "^26.4.2",
     "prettier": "^2.1.2",
     "start-server-and-test": "^1.11.4",
