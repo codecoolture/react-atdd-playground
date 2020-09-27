@@ -1,30 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  React ATDD Playground (with Next.js) 🎈
+</h1>
 
-## Getting Started
+Here you may find a template with a working project skeleton to (deliberate) practice your test-driven development skills (or _just_ front-end testing or front-end development in general).
 
-First, run the development server:
+## What's in the box?
 
-```bash
-npm run dev
-# or
-yarn dev
+- [**Cypress**](https://cypress.io): an acceptance testing framework to do browser testing, using JavaScript.
+- [**Testing Library Suite**](https://testing-library.com/): a complete set of tools to do unitary/integration testing at the component level.
+  - [**`@testing-library/cypress`**](https://testing-library.com/docs/cypress-testing-library/intro): this provides Cypress with Testing Library-like queries to access the DOM.
+  - [**`@testing-library/react`**](https://testing-library.com/docs/react-testing-library/intro): bridge to make React components to work with Testing Library.
+  - [**`@testing-library/jest-dom`**](https://testing-library.com/docs/ecosystem-jest-dom): this expands the set of default matchers from Jest to be more DOM-friendly.
+  - [**`@testing-library/user-event`**](https://testing-library.com/docs/ecosystem-user-event): utility library to make it easier to reproduce browser-like interactions (such as `user.type` or `user.click`).
+
+## How to play?
+
+First, you will need to install the required dependencies. They can be all automatically installed by using `yarn`:
+
+```sh
+$ yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, there are available 3 yarn scripts to execute different parts of the test suite:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```sh
+$ yarn test:all # it will run all the tests
+$ yarn test:acc # it will run only the Cypress test suite
+$ yarn test:unit # it will run only the Jest & Testing Library test suite
+```
