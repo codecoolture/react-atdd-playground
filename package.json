@@ -9,12 +9,10 @@
     "url": "https://codecoolture.com"
   },
   "scripts": {
-    "build": "next build",
     "cy:open": "start-test dev 3000 'cypress open'",
     "cy:run": "start-test dev 3000 'cypress run'",
     "dev": "next dev",
     "lint": "eslint . --ext .ts,.tsx",
-    "start": "next start",
     "test:all": "yarn test:acc && yarn test:unit",
     "test:acc": "yarn cy:run",
     "test:unit": "jest"
