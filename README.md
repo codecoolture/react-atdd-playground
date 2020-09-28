@@ -43,7 +43,7 @@ $ yarn test:acc # it will run only the Cypress test suite
 $ yarn test:unit # it will run only the Jest & Testing Library test suite
 ```
 
-If you're starting with TDD, there are some resources [here](https://www.notion.so/codecoolture/Public-References-50b1e927fe1641748f95610353e97b7f) that may help you through the journey.
+If you're starting with TDD, there are some resources [here](https://www.notion.so/codecoolture/Public-References-50b1e927fe1641748f95610353e97b7f) that may help you through the journey. If you don't know where to start, [programming katas](<https://en.wikipedia.org/wiki/Kata_(programming)>) are a popular mechanism to practice TDD ([here](https://codingdojo.org/KataCatalogue/) you may find some popular ones). Though they are not specifically targeted for front-end, it should be easy to add a small UI layer on top of them :-)
 
 ## Other useful commands
 
