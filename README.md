@@ -29,3 +29,5 @@ $ yarn test:all # it will run all the tests
 $ yarn test:acc # it will run only the Cypress test suite
 $ yarn test:unit # it will run only the Jest & Testing Library test suite
 ```
+
+If you're starting with TDD, there are some resources [here](https://www.notion.so/codecoolture/Public-References-50b1e927fe1641748f95610353e97b7f) that may help you through the journey.
