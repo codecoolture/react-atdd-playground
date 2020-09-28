@@ -2,6 +2,19 @@
   React ATDD Playground (with Next.js) 🎈
 </h1>
 
+<div align="center">
+  <img src="./.github/tddworkshop.png" width="600" align="center">
+
+  <p>
+    Hire
+    <strong><a href="https://tddworkshop.com" target="blank">The TDD Workshop</a></strong>
+    by
+    <strong><a href="https://codecoolture.com" target="">Codecoolture</a></strong>.
+  </p>
+</div>
+
+## Hi 👋,
+
 Here you may find a template with a working project skeleton to (deliberate) practice your test-driven development skills (or _just_ front-end testing or front-end development in general).
 
 ## What's in the box?
