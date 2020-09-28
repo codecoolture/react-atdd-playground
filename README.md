@@ -6,6 +6,7 @@ Here you may find a template with a working project skeleton to (deliberate) pra
 
 ## What's in the box?
 
+- A [**React**](https://reactjs.org/) app (with [**Next.js**](https://nextjs.com)): so you can exercise with different kinds of components: UI blocks, pages...
 - [**Cypress**](https://cypress.io): an acceptance testing framework to do browser testing, using JavaScript.
 - [**Testing Library Suite**](https://testing-library.com/): a complete set of tools to do unitary/integration testing at the component level.
   - [**`@testing-library/cypress`**](https://testing-library.com/docs/cypress-testing-library/intro): this provides Cypress with Testing Library-like queries to access the DOM.
