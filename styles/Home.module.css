@@ -1,27 +1,29 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  min-height: 100vh;
+  padding: 0 0.5rem;
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-width: 500px;
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
   font-size: 4rem;
+  line-height: 1.15;
+  margin: 0;
+
+  text-align: center;
 }
 
-.title {
+.description {
   text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  box-shadow: inset 0 -5px 0 0 #5dd9c1;
 }
