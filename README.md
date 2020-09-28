@@ -31,3 +31,13 @@ $ yarn test:unit # it will run only the Jest & Testing Library test suite
 ```
 
 If you're starting with TDD, there are some resources [here](https://www.notion.so/codecoolture/Public-References-50b1e927fe1641748f95610353e97b7f) that may help you through the journey.
+
+## Other useful commands
+
+Besides the above testing-related commands, these may help you during your practice session:
+
+```sh
+$ yarn dev # starts the app at http://localhost:3000
+$ yarn cy:open # opens the Cypress interactive UI
+$ yarn lint # lints the project by using ESLint (similar to what your editor probably already does)
+```
