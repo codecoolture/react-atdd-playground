@@ -17,15 +17,16 @@
 
 Here you may find a template with a working project skeleton to (deliberate) practice your test-driven development skills (or _just_ front-end testing or front-end development in general).
 
-## What's in the box?
+## 📦 What's in the box?
 
 - A [**React**](https://reactjs.org/) app (with [**Next.js**](https://nextjs.com)): so you can exercise with different kinds of components: UI blocks, pages...
-- [**Cypress**](https://cypress.io): an acceptance testing framework to do browser testing, using JavaScript.
-- [**Testing Library Suite**](https://testing-library.com/): a complete set of tools to do unitary/integration testing at the component level.
-  - [**`@testing-library/cypress`**](https://testing-library.com/docs/cypress-testing-library/intro): this provides Cypress with Testing Library-like queries to access the DOM.
-  - [**`@testing-library/react`**](https://testing-library.com/docs/react-testing-library/intro): bridge to make React components to work with Testing Library.
-  - [**`@testing-library/jest-dom`**](https://testing-library.com/docs/ecosystem-jest-dom): this expands the set of default matchers from Jest to be more DOM-friendly.
-  - [**`@testing-library/user-event`**](https://testing-library.com/docs/ecosystem-user-event): utility library to make it easier to reproduce browser-like interactions (such as `user.type` or `user.click`).
+- 🌳 [**Cypress**](https://cypress.io): an acceptance testing framework to do browser testing, using JavaScript.
+- 🐙 [**Testing Library Suite**](https://testing-library.com/): a complete set of tools to do unitary/integration testing at the component level.
+  - [**`@testing-library/cypress`**](https://testing-library.com/docs/cypress-testing-library/intro): enhances Cypress with Testing Library-like queries to access the DOM.
+  - [**`@testing-library/react`**](https://testing-library.com/docs/react-testing-library/intro): makes React components to work with Testing Library.
+  - [**`@testing-library/jest-dom`**](https://testing-library.com/docs/ecosystem-jest-dom): expands the set of default matchers from Jest to be more DOM-friendly.
+  - [**`@testing-library/user-event`**](https://testing-library.com/docs/ecosystem-user-event): makes user-like interactions (such as `user.type` or `user.click`) to be easier to reproduce at the component level.
+- 🔴 [**Nock**](https://github.com/nock/nock): a sophisticated HTTP [test double](https://en.wikipedia.org/wiki/Test_double).
 
 ## How to play?
 
