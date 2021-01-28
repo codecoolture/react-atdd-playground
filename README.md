@@ -27,6 +27,7 @@ Here you may find a template with a working project skeleton to (deliberate) pra
   - [**`@testing-library/jest-dom`**](https://testing-library.com/docs/ecosystem-jest-dom): expands the set of default matchers from Jest to be more DOM-friendly.
   - [**`@testing-library/user-event`**](https://testing-library.com/docs/ecosystem-user-event): makes user-like interactions (such as `user.type` or `user.click`) to be easier to reproduce at the component level.
 - 🔴 [**Nock**](https://github.com/nock/nock): a sophisticated HTTP [test double](https://en.wikipedia.org/wiki/Test_double).
+- 🔄 [**GitHub Actions**](https://github.com/features/actions): a next-gen continuous integration server. This repository includes an example of a workflow to run the acceptance and unit testing suites: ![github action badge](https://github.com/codecoolture/react-atdd-playground/workflows/test/badge.svg?branch=main)
 
 ## How to play?
 
