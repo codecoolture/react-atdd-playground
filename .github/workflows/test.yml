@@ -9,4 +9,11 @@ jobs:
       - run: "yarn"
       - uses: cypress-io/github-action@v2
         with:
-          command: "yarn cy:run"
+          command: "yarn test:acc"
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: "yarn"
+      - run: "yarn test:unit"
