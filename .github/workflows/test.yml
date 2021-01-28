@@ -8,4 +8,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: "yarn"
       - uses: cypress-io/github-action@v2
-        with: "yarn cy:run"
+        with:
+          command: "yarn cy:run"
