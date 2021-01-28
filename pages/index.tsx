@@ -17,7 +17,7 @@ export default function Home() {
           <a className={styles.link} href="https://tddworkshop.com" target="blank">
             <strong>The TDD Workshop</strong>
           </a>{" "}
-          and enjoy a full week of remote-friendly technical training on TDD in your company.
+          and enjoy a full week of remote-friendly technical training in your company.
         </p>
       </main>
     </div>
