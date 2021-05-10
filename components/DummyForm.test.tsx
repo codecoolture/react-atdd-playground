@@ -19,7 +19,7 @@ describe("DummyForm", () => {
 
     render(<DummyForm />);
 
-    await user.type(screen.getByLabelText("Name"), USER_NAME);
+    user.type(screen.getByLabelText("Name"), USER_NAME);
     user.click(screen.getByText("Submit"));
 
     await waitFor(() => expect(screen.getByText(EXPECTED_ERROR_MESSAGE)).toBeInTheDocument());
@@ -32,7 +32,7 @@ describe("DummyForm", () => {
 
     render(<DummyForm />);
 
-    await user.type(screen.getByLabelText("Name"), USER_NAME);
+    user.type(screen.getByLabelText("Name"), USER_NAME);
     user.click(screen.getByText("Submit"));
 
     await waitFor(() => expect(screen.getByText(EXPECTED_SUCCESS_MESSAGE)).toBeInTheDocument());
