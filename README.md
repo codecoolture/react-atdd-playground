@@ -15,7 +15,7 @@
 
 ## Hi 👋,
 
-Here you may find a template with a working project skeleton to (deliberate) practice your test-driven development skills (or _just_ front-end testing or front-end development in general).
+Here is a template with a working project skeleton to (deliberate) practice your test-driven development skills (or _just_ front-end testing or front-end development in general).
 
 ## 📦 What's in the box?
 
@@ -31,7 +31,7 @@ Here you may find a template with a working project skeleton to (deliberate) pra
 
 ## How to play?
 
-First, you will need to install the required dependencies. They can be all automatically installed by using `yarn`:
+First, you will need to install the required dependencies. They can be all automatically installed by using [`yarn`](https://yarnpkg.com/):
 
 ```sh
 $ yarn install
@@ -49,7 +49,7 @@ If you're starting with TDD, there are some resources [here](https://www.notion.
 
 ## Other useful commands
 
-Besides the above testing-related commands, these may help you during your practice session:
+Besides the above testing-focused commands, these may help you during your practice session:
 
 ```sh
 $ yarn dev # starts the app at http://localhost:3000
