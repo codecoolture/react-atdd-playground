@@ -1,11 +1,12 @@
 /* eslint-env node */
 
-module.exports = {
-  preset: "ts-jest",
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const jest = require("next/jest");
+
+const createJestConfig = jest({});
+
+module.exports = createJestConfig({
   setupFilesAfterEnv: ["@testing-library/jest-dom"],
   testEnvironment: "node",
   testPathIgnorePatterns: ["node_modules", "cypress"],
-  transform: {
-    "^.+\\.tsx$": "<rootDir>/node_modules/babel-jest",
-  },
-};
+});
