@@ -36,7 +36,7 @@
     "@testing-library/react": "12.1.5",
     "@testing-library/user-event": "13.5.0",
     "@types/jest": "27.5.2",
-    "@types/node": "16.11.58",
+    "@types/node": "16.11.59",
     "@types/react": "17.0.50",
     "@types/testing-library__cypress": "5.0.9",
     "@typescript-eslint/eslint-plugin": "5.37.0",
