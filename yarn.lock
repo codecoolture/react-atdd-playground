@@ -1399,10 +1399,10 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
   integrity sha512-RJJrrySY7A8havqpGObOB4W92QXKJo63/jFLLgpvOtsGUqbQZ9Sbgl35KMm1DjC6j7AvmmU2bIno+3IyEaemaw==
 
-"@types/testing-library__cypress@5.0.10":
-  version "5.0.10"
-  resolved "https://registry.yarnpkg.com/@types/testing-library__cypress/-/testing-library__cypress-5.0.10.tgz#aa100c2746b78efc58cc7c49a82eccd68adb80ba"
-  integrity sha512-yPX+krAP5nSdimnSbdOICDocAwJSS+GOPiGtKEvBzuiSRADYQkAfnNFZS8WljjFVZZiDpj78AnZNo8m7adRvCw==
+"@types/testing-library__cypress@5.0.12":
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/@types/testing-library__cypress/-/testing-library__cypress-5.0.12.tgz#185fa5dd500cd0e500018030fe67f6be506e97ab"
+  integrity sha512-MxX257KJIDnakpfCOzpT3tIwrWd3bpGWHCMIpJO3Ye1sCxtzluRyYIKWt6+XDr9ZzJeHlsR9i5ggZEgNB71cfQ==
   dependencies:
     "@testing-library/dom" "^7.11.0"
     cypress "*"
