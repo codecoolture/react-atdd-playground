@@ -38,7 +38,7 @@
     "@types/jest": "27.5.2",
     "@types/node": "16.18.75",
     "@types/react": "17.0.75",
-    "@types/testing-library__cypress": "5.0.12",
+    "@types/testing-library__cypress": "5.0.13",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "babel-jest": "27.5.1",
